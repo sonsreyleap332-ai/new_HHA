@@ -1,0 +1,239 @@
+/*
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@100;200;300;400;500;600&display=swap');
+*/
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Century Gothic', sans-serif;
+}
+head{
+    font-family: 'Century Gothic', sans-serif;
+}
+footer{
+    font-family: 'Century Gothic', sans-serif;
+}
+
+
+/*
+body{
+    font-family: 'Noto Sans Khmer', sans-serif;
+}
+head{
+    font-family: 'Noto Sans Khmer', sans-serif;
+}
+footer{
+    font-family: 'Noto Sans Khmer', sans-serif;
+}
+*/
+.carousel-inner > .item {
+    position: relative;
+    display: none;
+    -webkit-transition: 0.6s ease-in-out left;
+    -moz-transition: 0.6s ease-in-out left;
+    -o-transition: 0.6s ease-in-out left;
+    transition: 0.6s ease-in-out left;
+}
+
+.purchase{
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+.card{
+    /** padding: 30px 40px;
+    margin-top: 30px;
+    margin-bottom: 60px;**/
+    border: none !important;
+    box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2)
+}
+
+.card-form{
+    padding: 30px 40px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    border: none !important;
+    box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2)
+}
+
+.card-form-register{
+    padding: 20px 20px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    border: none !important;
+    box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2)
+}
+
+/** News Style**/
+.card-news-big{
+    padding:0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none !important;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+.card-news-sm{
+    padding:0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none !important;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+.card-bg-green{
+    background-color: rgb(2, 110, 31);
+    padding: 10px;
+}
+
+.text-golden{
+    color: goldenrod;
+    text-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
+
+.text-title-kh{
+    color:rgb(2, 110, 31);
+    font-weight: 400;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    font-family: 'Khmer OS Battambang', sans-serif !important;
+}
+
+.text-title{
+    color:rgb(2, 110, 31);
+    font-weight: 400;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    font-family: 'Century Gothic', sans-serif !important;
+}
+
+.text-subtitle-kh{
+    font-weight: 200;
+    font-family: 'Khmer OS Battambang', sans-serif !important;
+    text-shadow: 0 1px 2px rgba(36, 35, 35, 0.2);
+}
+.text-subtitle{
+    color: #1a1b1a;
+    font-weight: 200;
+    font-family: 'Century Gothic', sans-serif !important;
+    text-shadow: 0 1px 2px rgba(36, 35, 35, 0.2);
+}
+
+.news-pic{
+    border-top-right-radius: 8px 8px;
+    border-top-left-radius: 8px 8px;
+}
+
+.auto-fit{
+    text-align: center;
+    height: 100%;
+    width: 100%; 
+    object-fit: cover;
+}
+
+.pic-4-news{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.btn-news{
+    text-decoration: none;
+    opacity: 0.9;
+}
+.btn-news:hover{
+    opacity: 1.0;
+    transition: 1s;
+    box-shadow: 4px 8px 12px rgb(40, 38, 38);
+}
+
+.blue-text{
+    color: #05783c;
+}
+
+.text-head-kh{
+    color: #05783c;
+    font-weight: 520;
+    font-family: 'Khmer OS Battambang', sans-serif !important;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+.text-head{
+    color: #05783c;
+    font-weight: 520;
+    font-family: 'Century Gothic', sans-serif !important;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    margin-bottom: 0;
+}
+.text-head-dark{
+    color: #1a1b1a;
+    font-weight: 520;
+    font-family: 'Century Gothic', sans-serif !important;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+.text-align-middle{
+    margin: auto 0;
+    text-align: left;
+}
+
+.form-control-label{margin-bottom: 0}
+input, textarea, button{
+    padding: 8px 15px;
+    border-radius: 5px !important;
+    margin: 5px 0px;
+    box-sizing: border-box;border: 1px solid #ccc;
+    font-size: 18px !important;
+    font-weight: 300
+}
+input:focus, textarea:focus{
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #00BCD4;
+    outline-width: 0;
+    font-weight: 400
+}
+.btn-block{
+    text-transform: uppercase;
+    font-size: 15px !important;
+    font-weight: 400;
+    height: 43px;
+    cursor: pointer
+}
+.btn-block:hover{
+    color: #fff !important
+
+}
+button:focus{
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+
+.title-top-10{
+    margin-top: 16px;
+    color: goldenrod;
+    font-weight: 600;
+    text-shadow: 1px 1px black;
+}
+.form-subtitle{
+    color: #05783c;
+    font-family: 500;
+    text-shadow: 0.5px 0.5px gray;
+}
+
+
